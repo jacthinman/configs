@@ -14,6 +14,7 @@ alias las="ls -1Al"
 
 alias gst="git status"
 alias gcm="git commit -m"
+alias glog="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$HOME/local/bin:$PATH  # for npm
