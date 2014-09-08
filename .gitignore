@@ -1,0 +1,8 @@
+#ignore everything
+*
+
+#except...
+!.gitignore
+!.profile
+!.bash_profile
+!.bash_rc
